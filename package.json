@@ -1,6 +1,6 @@
 {
   "name": "uptime-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monitor your websites uptime and downtime in the terminal with the Uptime Robot API.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/christ0ph3r/uptime-cli"
-  }
+  },
+  "keywords": [
+    "uptime",
+    "cli",
+    "commandline",
+    "downtime",
+    "uptimerobot",
+    "api",
+    "terminal",
+    "monitor"
+  ]
 }
