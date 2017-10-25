@@ -1,6 +1,6 @@
 # Uptime CLI
 
-Uptime CLI lets you monitor websites and track uptime/downtime through the command line.  It uses the uptimerobot.com API to fetch data. Uptimerobot's free option allows you to monitor up to 50 websites free.
+Uptime CLI lets you monitor websites and track uptime/downtime through the command line.  It uses the [uptimerobot.com](https://uptimerobot.com) API to fetch data. Uptimerobot's free option allows you to monitor up to 50 websites free.
 
 ![Uptime CLI](https://i.imgur.com/EUjtIhN.png)
 
@@ -41,7 +41,7 @@ Uptime CLI lets you monitor websites and track uptime/downtime through the comma
     npm install
     ```
 
-1. Edit config.json
+1. Edit config.json and put your [uptime robot api key](https://uptimerobot.com)
 
     ```json
     {
