@@ -51,9 +51,9 @@ Uptime CLI lets you monitor websites and track uptime/downtime through the comma
 
 1. Run
 
-  ```
-  npm start
-  ```
+      ```
+      npm start
+      ```
 
 ## Want to support my work? Donations accepted
 
