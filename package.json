@@ -1,11 +1,12 @@
 {
   "name": "uptime-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Monitor your websites uptime and downtime in the terminal with the Uptime Robot API.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "up-cli": "node index.js"
+    "up-cli": "node index.js",
+    "test": "ava"
   },
   "author": "n053",
   "license": "MIT",
@@ -34,5 +35,8 @@
     "api",
     "terminal",
     "monitor"
-  ]
+  ],
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
 }

@@ -75,7 +75,7 @@ function figletLog(text) {
  * Makes API data understandable
  */
 
-function monitorType(typeNumber) {
+var monitorType = function monitorType(typeNumber) {
   switch(typeNumber) {
     case 1:
       type = "HTTP(s)";
@@ -100,7 +100,7 @@ function monitorType(typeNumber) {
  * Makes API data understandable
  */
 
-function monitorStatus(statusNumber) {
+var monitorStatus = function monitorStatus(statusNumber) {
   switch(statusNumber) {
     case 0:
       status = "Paused";
@@ -122,3 +122,5 @@ function monitorStatus(statusNumber) {
   }
   return status;
 }
+
+module.exports = { options, monitorType, monitorStatus };
