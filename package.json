@@ -1,6 +1,6 @@
 {
   "name": "uptime-cli",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Monitor your websites uptime and downtime in the terminal with the Uptime Robot API.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "chalk": "^2.2.0",
     "cli-table": "^0.3.1",
     "figlet": "^1.2.0",
-    "foreach": "^2.0.5",
     "jsonfile": "^4.0.0",
     "request": "^2.83.0",
     "request-promise": "^4.2.2"

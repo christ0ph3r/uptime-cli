@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 
-const each = require('foreach');
 const request = require('request');
 const rp = require('request-promise');
 const chalk = require('chalk');
@@ -36,7 +35,7 @@ rp(options)
     chalk.blue('Uptime'),
     chalk.blue('Created'),
   ] });
-  each(parsedBody.monitors, function (value, key, array) {
+  parsedBody.monitors.forEach(function (value, key) {
     table.push([
       chalk.blue(value.id),
       chalk.green(value.friendly_name),
