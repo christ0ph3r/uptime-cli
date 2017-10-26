@@ -17,19 +17,19 @@ test('apiMethod', t => {
  * Monitor Types
  */
 
-test('statusHttps', t => {
+test('typeHttps', t => {
   t.is(app.monitorType(1), 'HTTP(s)');
 });
 
-test('statusKeyword', t => {
+test('typeKeyword', t => {
   t.is(app.monitorType(2), 'Keyword');
 });
 
-test('statusPing', t => {
+test('typePing', t => {
   t.is(app.monitorType(3), 'Ping');
 });
 
-test('statusPort', t => {
+test('typePort', t => {
   t.is(app.monitorType(4), 'Port');
 });
 
