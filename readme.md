@@ -22,7 +22,6 @@ Uptime CLI lets you monitor websites and track uptime/downtime through the comma
 
 ## Installation Instructions
 
-
 1. Git Clone the repo
 
     ```
@@ -54,8 +53,13 @@ Uptime CLI lets you monitor websites and track uptime/downtime through the comma
       ```
       npm start
       ```
+## Testing
 
-## Want to support my work? Donations accepted
+```
+npm test
+```
+
+## Donations accepted
 
 
 | Coin     | Address                                    |
